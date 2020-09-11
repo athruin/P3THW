@@ -1,0 +1,7 @@
+print("How old are you?", end=' ')
+age = input()
+print("How tall are you? (In inches, please.)", end=' ')
+height = input()
+print("How about your weight? (Pounds this time.)", end=' ')
+weight = input()
+print(f"Got it. So you're {age} years old, weigh {weight} pounds, and are {height} inches tall? Neat.")

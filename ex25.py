@@ -18,7 +18,7 @@ def print_last_word(words):
     print(word)
 
 def sort_sentence(sentence):
-    """Turns a sentence in words, then sorts the words."""
+    """Turns a sentence into words, then sorts the words."""
     words = break_words(sentence)
     return sort_words(words)
 
@@ -33,4 +33,3 @@ def print_first_and_last_sorted(sentence):
     words = sort_sentence(sentence)
     print_first_word(words)
     print_last_word(words)
-#test
